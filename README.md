@@ -1,1 +1,2 @@
-# Web-Development-Course
+# Web Development Course
+> First Milestone Project
