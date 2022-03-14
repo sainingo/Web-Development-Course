@@ -33,6 +33,7 @@ header > span {
     margin: 20px 15px;
     font-weight: 900;
     opacity: 0.6;
+    cursor: pointer;
 }
 
 .section-one {
@@ -70,4 +71,79 @@ header > span {
     font-size: 0.9rem;
     font-family: 'Lato', sans-serif;
     opacity: 0.8;
+}
+
+article {
+    padding: 12px;
+    margin: 0 0 10px;
+}
+
+article > h3 {
+    font-family: 'Lato';
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-style: bold;
+    letter-spacing: 0ch;
+    opacity: 0.8;
+}
+
+article > p {
+    letter-spacing: 0ch;
+    font-size: 0.9rem;
+    opacity: 0.6;
+}
+
+.main-program {
+    background-color: #484848;
+    /* background-image: url('../images/b&w.png'); */
+    color: #fff;
+}
+
+.program-container > button {
+    background-color: #ec5242;
+    color: #fff;
+    padding: 30px 40px;
+    width: 60%;
+    display: flex;
+    margin: 40px auto;
+    border: none;
+    font-size: 1.3rem;
+    opacity: 0.8;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: #d3d3d3;
+    transition: 0.03s ease-in-out;
+}
+
+.program-container {
+    padding-bottom: 20px;
+}
+
+.main-content {
+    display: flex;
+    gap: 10px;
+    padding: 15px 20px;
+    background-color: var(--tertiary);
+    margin: 12px 14px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.main-content > img {
+    background-color: transparent;
+}
+
+.h2-text-main {
+    font-size: 2.1rem;
+    text-align: center;
+    padding: 20px;
+}
+
+.h2-text-main::after {
+    content: '';
+    background-color: var(--secondary);
+    width: 60px;
+    height: 3px;
+    display: block;
+    margin: 10px auto;
 }
