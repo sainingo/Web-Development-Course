@@ -71,6 +71,8 @@ header > span {
   border: 3px solid rgb(255, 255, 255);
   border-radius: 4px;
   margin-top: 20px;
+  z-index: 100;
+  background-color: #ffebeb;
 }
 
 article > p {
@@ -99,7 +101,7 @@ article > h3 {
 }
 
 .main-program {
-  background-color: #484848;
+  background-color: var(--primary);
   background-image: url('../images/bg-the-training.png');
   background-size: 15px;
   color: #fff;
@@ -126,11 +128,10 @@ article > h3 {
 
 .main-content {
   display: flex;
-  grid-template-columns: repeat(8, 1fr);
-  gap: 10px;
+  gap: 40px;
   padding: 15px 20px;
   background-color: #ada9a92f;
-  margin: 12px 14px;
+  margin: 12px 16px;
   border-radius: 4px;
   cursor: pointer;
 }
@@ -138,16 +139,17 @@ article > h3 {
 .main-content > h3 {
   color: var(--secondary);
   font-weight: 600;
-  grid-column: 4/7;
+  margin-top: 30px;
+  opacity: 0.8;
 }
 
 .main-content > img {
-  background-color: transparent;
-  grid-column: 1/4;
+  margin-top: 30px;
 }
 
 .main-content > p {
-  grid-column: 7/9;
+  width: 80%;
+  opacity: 0.7;
 }
 
 .h2-text-main {
@@ -163,4 +165,51 @@ article > h3 {
   height: 3px;
   display: block;
   margin: 10px auto;
+}
+
+.featued-speakers > h3 {
+  text-align: center;
+  margin: 40px;
+}
+
+.featued-speakers > h3::after {
+  content: '';
+  display: block;
+  width: 60px;
+  height: 3px;
+  margin: 20px auto;
+  background-color: #ec5242;
+}
+
+.speaker-details {
+  display: flex;
+  margin: 15px 20px;
+  gap: 20px;
+  border: 2px solid #d3d3d3;
+}
+
+.speaker-desc {
+  margin-top: 5px;
+}
+
+.speaker-desc > h4 {
+  font-family: 'Cocogoose', sans-serif;
+  font-size: 22px;
+  font-weight: 300;
+  opacity: 0.7;
+}
+
+.speaker-desc > p {
+  color: #ec5242;
+  font-style: italic;
+  font-size: 17px;
+  opacity: 0.7;
+  margin: 5px;
+}
+
+.speaker-desc > span {
+  font-size: 18px;
+  opacity: 0.8;
+  font-family: 'Lato', sans-serif;
+  margin: 2px;
 }

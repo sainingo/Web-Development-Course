@@ -1,0 +1,57 @@
+.about-section {
+  margin: 60px 15px;
+}
+
+.about-section > h1 {
+  font-size: 1.5rem;
+  font-family: 'Cocogoose', sans-serif;
+  color: var(--secondary);
+  padding-bottom: 10px;
+}
+
+.about-text {
+  font-family: 'Cocogoose', sans-serif;
+  font-size: 11vw;
+  line-height: 12vw;
+  background-image: url('../images/bg-text-overlay.png');
+  text-transform: uppercase;
+  background-clip: content-box;
+  -webkit-background-clip: text;
+  color: transparent;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.about-desc {
+  padding: 15px 20px;
+  border: 3px solid rgb(255, 255, 255);
+  border-radius: 4px;
+  margin-top: 20px;
+  z-index: 100;
+  background-color: #ffebeb;
+}
+
+article > p {
+  letter-spacing: 0;
+  font-size: 0.9rem;
+  opacity: 0.6;
+}
+
+.about-desc > p {
+  font-size: 0.9rem;
+  font-family: 'Lato', sans-serif;
+  opacity: 0.8;
+}
+
+article {
+  padding: 12px;
+  margin: 0 0 10px;
+}
+
+article > h3 {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.3rem;
+  font-weight: 600;
+  letter-spacing: 0;
+  opacity: 0.8;
+}
