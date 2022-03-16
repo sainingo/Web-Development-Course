@@ -1,3 +1,7 @@
+.upper-nav {
+  padding-bottom: 10px;
+}
+
 .about-section {
   margin: 60px 15px;
   text-align: center;
@@ -39,7 +43,7 @@
   background-color: hsl(0, 0%, 100%);
 }
 
-.about-article > p {
+.about-article > h3 {
   font-size: 1.1rem;
   opacity: 0.6;
 }
@@ -84,15 +88,15 @@
 }
 
 .about-logo {
-  padding: 40px 30px;
+  padding: 15px 20px;
   border: 1px solid rgb(206, 202, 202);
   border-radius: 5px;
   margin: 10px;
 }
 
 .about-logo > span {
-  font-size: 11vw;
-  line-height: 9vw;
+  font-size: 8vw;
+  line-height: 8vw;
   font-family: 'Lato', sans-serif;
   font-weight: 600;
 }
@@ -140,27 +144,28 @@ hr {
 }
 
 .middle > p {
-  margin: 80px 0 20px;
+  padding: 20px;
   font-weight: 400;
 }
 
 .code-summit {
   background-image: url('../images/summit/bg_02.jpg');
-  padding: 40px 60px;
+  padding: 40px;
   border: 1px solid grey;
   text-align: center;
-  margin: 20px 40px;
+  margin: 20px 0 20px 80px;
   color: #fff;
   height: 30vh;
+  width: 70%;
 }
 
 .code-summit > p {
-  font-size: 45px;
+  font-size: 32px;
   margin: 0;
 }
 
 .code-summit > span {
-  font-size: 28px;
+  font-size: 24px;
 }
 
 .last-section {
@@ -168,19 +173,30 @@ hr {
 }
 
 .last-section > h4 {
-  font-size: 10vw;
+  font-size: 6vw;
   color: #fff;
   text-align: center;
-  margin: 0;
+  margin: 10px;
+  padding-top: 20px;
+}
+
+.last-section > h4::after {
+  content: '';
+  width: 50px;
+  background-color: red;
+  height: 3px;
+  display: block;
+  margin: 10px auto;
 }
 
 .partners {
   margin: 15px 20px;
   text-align: center;
+  padding-bottom: 30px;
 }
 
 .partners > span {
-  font-size: 50px;
+  font-size: 28px;
   color: #fff;
   padding: 0 15px;
   opacity: 0.6;
@@ -203,4 +219,170 @@ hr {
 .footer > p {
   font-family: 'Lato', sans-serif;
   opacity: 0.7;
+}
+
+@media (min-width: 768px) {
+  .about-section > h1 {
+    display: none;
+  }
+
+  .about-text {
+    font-size: 4vw;
+    line-height: 5vw;
+    width: 80%;
+    margin: 0 auto;
+  }
+
+  .about-desc {
+    width: 60%;
+    margin: 20px auto;
+  }
+
+  .about-desc > p {
+    font-size: 16px;
+  }
+
+  .about-article > h3 {
+    font-size: 14px;
+    opacity: 1;
+  }
+
+  .about-article > span {
+    font-size: 20px;
+  }
+
+  .about-middle {
+    margin: 5px 20px;
+    text-align: center;
+  }
+
+  .middle-context > h2 {
+    font-size: 1.6vw;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+
+  .middle-context > span {
+    font-size: 16px;
+    text-align: center;
+    padding: 0;
+    margin: 10px;
+  }
+
+  .about-logo {
+    padding: 15px 20px;
+    border: 1px solid rgb(206, 202, 202);
+    border-radius: 5px;
+    width: 50%;
+    margin: 20px auto;
+  }
+
+  .about-logo > span {
+    font-size: 4vw;
+    line-height: 3vw;
+    font-family: 'Lato', sans-serif;
+    font-weight: 600;
+  }
+
+  .about-logo > p {
+    width: 70%;
+    font-size: 12px;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    margin: 10px auto;
+  }
+
+  .about-logo > p::after {
+    content: '';
+    width: 30%;
+    height: 2px;
+    background-color: grey;
+    display: block;
+    opacity: 0.3;
+    margin: 0 auto;
+  }
+
+  .about-logo > p::before {
+    content: '';
+    width: 30%;
+    height: 2px;
+    background-color: grey;
+    display: block;
+    opacity: 0.3;
+    margin: 0 auto;
+  }
+
+  .last-section > h4 {
+    font-size: 26px;
+    margin: 0;
+    opacity: 0.6;
+  }
+
+  .last-section > h4::after {
+    content: '';
+    width: 40px;
+    height: 2px;
+    background-color: red;
+    display: block;
+    margin: 18px auto;
+    font-weight: 300;
+  }
+
+  .last-section {
+    padding: 30px 40px;
+  }
+
+  .partners > span {
+    font-size: 1.6rem;
+    padding: 20px;
+    margin: 40px;
+  }
+
+  .footer {
+    display: flex;
+    gap: 60px;
+    margin: 15px 30px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer > span {
+    font-size: 20px;
+    line-height: 2vw;
+  }
+
+  .footer > p {
+    margin-top: 15px;
+  }
+
+  .middle > h2 {
+    font-weight: 600;
+    margin-top: 0;
+  }
+
+  .middle > p {
+    margin-top: 10px;
+  }
+
+  .row {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 60px;
+    margin-left: 40px;
+    width: 90%;
+  }
+
+  .code-summit {
+    width: 30%;
+    margin: 8px;
+  }
+
+  .code-summit > p {
+    font-size: 20px;
+  }
+
+  .code-summit > span {
+    font-size: 18px;
+  }
 }
