@@ -10,7 +10,7 @@
 
 ## [Visit the website](https://web-dev-course.netlify.app/)
 ## Live Demo
-[Full Responsive Design]()
+[Video Demo](https://www.loom.com/share/dce532006b9c449791e5b54e5940d2d6)
 
 ## Getting Started
 To run the above project you need to meet the following requirements:
