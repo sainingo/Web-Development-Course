@@ -12,10 +12,23 @@
         <link rel="stylesheet" href="./fonts/cocogoose.css" />
         <link rel="stylesheet" href="./css/styles.css" />
         <link rel="stylesheet" href="./css/about.css" />
+        <link rel="stylesheet" href="./css/menu.css" />
     </head>
     <body>
         <main>
-            <div class="header-wrapper">
+            <nav class="toggle-nav">
+                <button type="button" class="close-menu"><i class="fa fa-times fa-spin" aria-hidden="true"></i></button>
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li>Program</li>
+                    <li>Join</li>
+                    <li>Sponsor</li>
+                    <li>News</li>
+                    <li>CodeCamp Campaign</li>
+                </ul>   
+            </nav>
+     <div class="main-container">
+         <div class="header-wrapper">
             <nav class="upper-nav">
                 <ul>
                     <li>f</li>
@@ -27,6 +40,7 @@
             </nav>
             <header>
                 <a href="index.html" class="logo">CodeCamp Logo</a>
+                <span class="toggle-btn">&#9776;</span>
                 <nav class="lower-nav">
                     <ul>
                         <li><a href="about.html">About</a></li>
@@ -37,7 +51,7 @@
                         <li>CodeCamp Campaign</li>
                     </ul>   
                 </nav>
-                <span>&#9776;</span>
+               
             </header>
             
             <section class="section-one"> 
@@ -53,7 +67,8 @@
                     <p>@ CodeCamp Building, Near Sarit Center</p>
                 </article>
             </section>
-            </div>
+         </div>
+         
             <section class="main-program">
                 <h2 class="h2-text-main">Main Program</h2>
                 <div class="program-container">
@@ -181,15 +196,18 @@
                     <span>Microverse</span>
                 </div>
             </section>
-        </main>   
-        <footer>
-            <div class="footer">
-                <span>CodeCamp <br> Org</span>
-                <p>2022 CodeCamp Org <br> Some Rights Reserved</p>
-            </div>
-        </footer>
+            <footer>
+                <div class="footer">
+                    <span>CodeCamp <br> Org</span>
+                    <p>2022 CodeCamp Org <br> Some Rights Reserved</p>
+                </div>
+            </footer>
+    </div>
+      </main>   
+        
+
         <!-- JavaScript Bundle with Popper -->
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-        <script src="app.js"></script>
+        <script src="./js/index.js"></script>
     </body>
 </html>

@@ -11,9 +11,22 @@
         <link rel="stylesheet" href="./fonts/cocogoose.css" />
         <link rel="stylesheet" href="./css/styles.css" />
         <link rel="stylesheet" href="./css/about.css" />
+        <link rel="stylesheet" href="./css/menu.css" />
     </head>
     <body>
         <main>
+            <nav class="toggle-nav">
+                <button type="button" class="close-menu"><i class="fa fa-times fa-spin" aria-hidden="true"></i></button>
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li>Program</li>
+                    <li>Join</li>
+                    <li>Sponsor</li>
+                    <li>News</li>
+                    <li>CodeCamp Campaign</li>
+                </ul>   
+            </nav>
+            <div class="main-container">
             <div class="header-wrapper">
                 <nav class="upper-nav">
                     <ul>
@@ -26,6 +39,7 @@
                 </nav>
                 <header>
                     <a href="index.html" class="logo">CodeCamp Logo</a>
+                    <span class="toggle-btn">&#9776;</span>
                     <nav class="lower-nav">
                         <ul>
                             <li><a href="about.html">About</a></li>
@@ -36,7 +50,6 @@
                             <li>CodeCamp Campaign</li>
                         </ul>   
                     </nav>
-                    <span>&#9776;</span>
                 </header>
                 
                 <section class="about-section"> 
@@ -90,14 +103,14 @@
                     <span>Microverse</span>
                 </div>
             </section>
-     
-        </main>
-        <footer>
-            <div class="footer">
-                <span>CodeCamp <br> Org</span>
-                <p>2022 CodeCamp Org <br> Some Rights Reserved</p>
-            </div>
-        </footer>
-        
+            <footer>
+                <div class="footer">
+                    <span>CodeCamp <br> Org</span>
+                    <p>2022 CodeCamp Org <br> Some Rights Reserved</p>
+                </div>
+            </footer>
+        </div>
+        </main>  
+        <script src="./js/index.js"></script>     
     </body>
 </html>
