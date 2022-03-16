@@ -14,7 +14,7 @@
 
 ## [Visit the website](https://web-dev-course.netlify.app/)
 ## Live Demo
-[Full Responsive Design](index.html)
+[Full Responsive Design](404.html)
 
 
 ## Getting Started
