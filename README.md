@@ -1,5 +1,9 @@
 # Web Development Course
-> First Capstone Project. I built an online course 
+> First Capstone Project > Online Web Dev course 
+> 
+![desktop_first-capt](https://user-images.githubusercontent.com/32932447/158680914-63155ff3-983d-4fca-bffb-d400743e2c91.jpg)
+
+![about_first-capt](https://user-images.githubusercontent.com/32932447/158680944-721026b9-cb78-4a53-9b79-84585623dc82.jpg)
 
 # Built With
 - Html
@@ -11,6 +15,7 @@
 ## [Visit the website](https://web-dev-course.netlify.app/)
 ## Live Demo
 [Full Responsive Design]()
+
 
 ## Getting Started
 To run the above project you need to meet the following requirements:
