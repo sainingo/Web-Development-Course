@@ -14,7 +14,7 @@
 
 ## [Visit the website](https://web-dev-course.netlify.app/)
 ## Live Demo
-[Full Responsive Design]()
+[Full Responsive Design]("Comming soon...")
 
 
 ## Getting Started
