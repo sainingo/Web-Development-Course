@@ -282,6 +282,7 @@ article > h3 {
 
   .lower-nav {
     display: flex;
+    justify-content: center;
   }
 
   .lower-nav > ul li:hover {
