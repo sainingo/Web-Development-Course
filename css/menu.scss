@@ -1,0 +1,39 @@
+.toggle-nav.show {
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  width: 100%;
+  overflow: auto;
+  z-index: 100;
+  top: 0;
+  background-color: rgba(255, 0, 0, 0.4);
+  font-family: 'Lato', sans-serif;
+
+  ul {
+    padding: 20px 0;
+    float: right;
+  }
+
+  li {
+    padding: 8px 0;
+    cursor: pointer;
+    transition: 0.03s;
+  }
+}
+
+.toggle-nav > button {
+  align-self: flex-start;
+  background-color: rgba(180, 31, 31, 0);
+  margin-left: 0;
+  border: 0;
+  font-size: 1.8rem;
+  cursor: pointer;
+}
+
+.toggle-nav {
+  display: none;
+}
+
+.main-container.show {
+  opacity: 0.2;
+}
